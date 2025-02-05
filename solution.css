@@ -1,0 +1,14 @@
+The following CSS code solves the issue:
+
+```css
+div.container {
+  width: 100%;
+  overflow: auto;
+}
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+Adding `overflow: auto;` to the parent container (`div.container` in this example) forces the parent container to accommodate the floated elements, preventing the collapse and ensuring correct rendering.
