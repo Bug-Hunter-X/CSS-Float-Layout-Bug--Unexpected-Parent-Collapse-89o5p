@@ -1,0 +1,10 @@
+The following CSS code snippet demonstrates a common issue:
+
+```css
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+This might cause unexpected layout issues if the total width of the floating elements exceeds the parent container's width.  The parent container will collapse to the height of the tallest floating element, and any content below the floats will overlay them.
